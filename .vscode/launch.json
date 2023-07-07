@@ -3,5 +3,20 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SOperations",
+            "request": "launch",
+            "mainClass": "SOperations",
+            "projectName": "work_f90b35a1"
+        },
+        {
+            "type": "java",
+            "name": "series",
+            "request": "launch",
+            "mainClass": "series",
+            "projectName": "work_f90b35a1"
+        }
+    ]
 }

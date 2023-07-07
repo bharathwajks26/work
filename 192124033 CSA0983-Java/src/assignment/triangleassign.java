@@ -1,4 +1,4 @@
-
+ 
 class triangleassign{
     public static void main(String[] args) {
     Triangle triangle = new Triangle(3, 4, 5);
@@ -23,7 +23,7 @@ class Triangle {
         return (A * A + B * B == C * C) ||
                (B * B + C * C == A * A) ||
                (C * C + A * A == B * B);
-    }
+    } 
 
    public boolean isScalene() {
         return A != B && B != C && C != A;
