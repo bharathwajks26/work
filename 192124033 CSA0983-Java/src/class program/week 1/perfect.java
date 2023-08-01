@@ -7,7 +7,7 @@ Scanner s=new Scanner(System.in);
 n=s.nextInt();
 for(i=0;i<n;i++);
 {
-if(n%1==0)
+if(n%i==0)
 {
 sum=sum+i;
 }

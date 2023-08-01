@@ -9,19 +9,19 @@ public class test3 {
 
         double deduction = 0.0;
 
-        if (income <= 500000) {
+        if (income <= 150000) {
             deduction = 0.0;
-        } else if (income <= 750000) {
-            deduction = (income - 500000) * 0.05;
-        } else if (income <= 1000000) {
-            deduction = 25000 + (income - 750000) * 0.10;
-        } else if (income <= 1500000) {
-            deduction = 75000 + (income - 1000000) * 0.12;
+        } else if (income <= 300000 && income>150000) {
+            deduction = income* 0.1;
+        } else if (income <= 500000 && income >= 300000) {
+            deduction = income* 0.2;
+
         } else {
-            deduction = 125000 + (income - 1500000) * 0.20;
+            deduction = income * 0.3;
         }
 
         System.out.println("Tax Deduction: " + deduction);
+	System.out.println("sal " + income - deduction);
 
         scanner.close();
     }

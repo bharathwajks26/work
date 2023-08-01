@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ATM",
+            "request": "launch",
+            "mainClass": "ATM",
+            "projectName": "work_f90b35a1"
+        },
+        {
+            "type": "java",
+            "name": "MinMax",
+            "request": "launch",
+            "mainClass": "MinMax",
+            "projectName": "work_f90b35a1"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumbers",
+            "request": "launch",
+            "mainClass": "PrimeNumbers",
+            "projectName": "work_f90b35a1"
+        },
+        {
+            "type": "java",
+            "name": "allnum",
+            "request": "launch",
+            "mainClass": "allnum",
+            "projectName": "work_f90b35a1"
+        },
+        {
+            "type": "java",
             "name": "SOperations",
             "request": "launch",
             "mainClass": "SOperations",
