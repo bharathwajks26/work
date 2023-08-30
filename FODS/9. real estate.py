@@ -16,3 +16,20 @@ print(average)
 print("\nproperties with more than four bedrooms:", total4bed)
 print("\nProperty with the largest area:")
 print(largest_area)
+
+
+'''
+sample output 
+Average listing price
+location
+City A    265000.0
+City B    250000.0
+City C    400000.0
+Name: listing price, dtype: float64
+
+properties with more than four bedrooms: 2
+
+Property with the largest area:
+   property ID location  number of bedrooms  area in square feet  listing price
+3            4   City C                   5                 2200         420000
+'''

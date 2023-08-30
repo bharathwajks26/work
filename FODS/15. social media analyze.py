@@ -7,3 +7,15 @@ df = pd.DataFrame(data)
 freq= df['likes'].value_counts().sort_index()
 print("Likes Frequency Distribution:")
 print(freq)
+
+
+'''
+sample output 
+Likes Frequency Distribution:
+likes
+50     2
+100    1
+120    1
+150    2
+Name: count, dtype: int64
+'''

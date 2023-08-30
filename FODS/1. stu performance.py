@@ -33,3 +33,12 @@ for subject, ave in zip(names, avg):
 
 high = np.max(avg)
 print("Highest average score:", high)
+
+'''sample out put 
+Average scores per subject:
+sub1: 83.95
+sub2: 82.28
+sub3: 84.58
+sub4: 87.95
+Highest average score: 87.95
+'''

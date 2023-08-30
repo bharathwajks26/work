@@ -15,3 +15,9 @@ column = data[:, 0]
 houses = data[column > 4]
 ave = np.mean(houses[:, 2])  
 print("Average sales with four bedrooms:", ave)
+
+
+'''
+sample output 
+Average sales with four bedrooms: 385000.0
+'''

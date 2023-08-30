@@ -21,3 +21,10 @@ placebo_ci = (pmean - p_mof, pmean + p_mof)
 
 print(f"95% Confidence Interval for Drug Group: ({drug_ci[0]:.2f}, {drug_ci[1]:.2f})")
 print(f"95% Confidence Interval for Placebo Group: ({placebo_ci[0]:.2f}, {placebo_ci[1]:.2f})")
+
+
+'''
+sample output 
+95% Confidence Interval for Drug Group: (5.49, 5.84)
+95% Confidence Interval for Placebo Group: (2.42, 2.56)
+'''

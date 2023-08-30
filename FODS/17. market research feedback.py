@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
-df = pd.read_csv("C:/Users/bhara/Downloads/studies/work/New folder/FODS/data1.csv")
+df = pd.read_csv("C:/Users/bhara/Downloads/studies/work/New folder/FODS/17. market research feedback.csv")
 
 def preprocess_text(text):
     text = text.lower()
@@ -33,3 +33,13 @@ plt.ylabel("Frequency")
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
+
+
+'''
+sample output 
+Top 3 Most Frequent Words:
+feedback
+product         1
+expectations    1
+customer        1
+'''

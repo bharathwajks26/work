@@ -8,3 +8,15 @@ freq = df['age'].value_counts().sort_index()
 
 print("Age Frequency Distribution:")
 print(freq)
+
+
+'''
+sample output 
+Age Frequency Distribution:
+age
+22    1
+25    2
+30    3
+40    1
+Name: count, dtype: int64
+'''

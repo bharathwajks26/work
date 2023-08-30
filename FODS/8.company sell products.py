@@ -10,3 +10,14 @@ sorted = sales.sort_values(ascending=False)
 top5 = sorted.head(5)
 print("Top 5 products in the past month:")
 print(top5)
+
+
+'''
+sample output 
+Top 5 products in the past month:
+product_name
+Product A    260
+Product B    200
+Product C    110
+Name: quantity, dtype: int64
+'''

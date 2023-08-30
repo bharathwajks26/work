@@ -19,3 +19,13 @@ print(f"Discount amount: ${discount_amount:.2f}")
 print(f"Total cost after discounts: {after_discount:.2f}")
 print(f"Tax amount: ${tax_amount:.2f}")
 print(f"Final total cost: ${final:.2f}")
+
+
+'''
+sample output 
+Total cost before discounts: 55.00
+Discount amount: $5.50
+Total cost after discounts: 49.50
+Tax amount: $3.96
+Final total cost: $53.46
+'''

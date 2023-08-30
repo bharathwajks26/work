@@ -18,3 +18,25 @@ print("\nAverage order quantity for each product:")
 print(ave)
 print("\nEarliest order date:", early)
 print("Latest order date:", latest)
+
+
+'''
+sample output 
+Total number of orders made by each customer:
+customer ID
+101    3
+102    2
+103    1
+104    1
+Name: count, dtype: int64
+
+Average order quantity for each product:
+product name
+A    3.0
+B    3.5
+C    2.0
+Name: order quantity, dtype: float64
+
+Earliest order date: 2023-07-01 00:00:00
+Latest order date: 2023-07-06 00:00:00
+'''

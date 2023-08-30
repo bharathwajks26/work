@@ -20,3 +20,9 @@ sales_data = np.array([
 av = np.mean(sales_data)
 
 print("The average price of all products sold in the past month is:",av)
+
+
+'''
+sample output 
+The average price of all products sold in the past month is: 160.0
+'''

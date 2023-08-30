@@ -15,3 +15,11 @@ else:
 print(f"The t-statistic is: {t_statistic:.4f}")
 print(f"The p-value is: {p_value:.4f}")
 print(f"Conclusion: There is a {result} difference in mean conversion rates between designs A and B.")
+
+
+'''
+sample output 
+The t-statistic is: -5.5468
+The p-value is: 0.0000
+Conclusion: There is a statistically significant difference in mean conversion rates between designs A and B.
+'''
